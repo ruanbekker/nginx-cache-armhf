@@ -11,6 +11,16 @@ Caching:
 - Static files will be cached for 7 days
 - Content data will be cached for 1 day
 
+## Environment Variables:
+
+Ghost URL for Nginx Upstream:
+
+```
+- GHOST_UPSTREAM_NAME
+```
+
+It defaults to 127.0.0.1
+
 ## Add-Ons:
 
 You can use this with Ghost for ARM:
