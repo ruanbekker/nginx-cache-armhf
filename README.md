@@ -11,6 +11,11 @@ Caching:
 - Static files will be cached for 7 days
 - Content data will be cached for 1 day
 
+## Add-Ons:
+
+You can use this with Ghost for ARM:
+- https://github.com/ruanbekker/ghost-armhf
+
 ## Resources:
 
 - https://www.nginx.com/blog/nginx-caching-guide/
