@@ -11,5 +11,6 @@ RUN apk add --no-cache nginx \
     
 ADD nginx_configs/nginx.conf /etc/nginx/nginx.conf
 ADD nginx_configs/ghost.conf /etc/nginx/conf.d/ghost.conf
+ADD boot.sh /boot.sh
 
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["/bin/sh", "/boot.sh"]
